@@ -1,3 +1,24 @@
-p{
-  color: red;
-}
+//abstract
+@import "abstract/variables";
+
+//partials
+@import "partials/reset";
+@import "partials/base";
+
+//partials header
+@import "partials/header";
+
+//partials main
+@import "partials/intro";
+@import "partials/services";
+@import "partials/work";
+@import "partials/project";
+@import "partials/values";
+@import "partials/clients";
+@import "partials/about";
+@import "partials/brands";
+
+//partials footer
+@import "partials/info";
+@import "partials/social";
+

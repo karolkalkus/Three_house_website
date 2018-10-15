@@ -1,17 +1,56 @@
-.btn{
+.intro {
+  
+  text-align: center;
+  background-image: url(/img/intro_background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 9;
+  }
+
+  &__title {
+    font-family: 'Montserrat';
+    padding-top: 40px;
+    max-width: 280px;
+    line-height: 32px;
+    color: $color-white;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: $color-light-grey;
+    font-family: "Roboto Slab";
+    font-size: 10px;
+    font-weight: 100;
+  }
+}
+
+.btn {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
   color: $color-white;
-  font-size: 16px;
+  font-family: 'Montserrat';
+  font-size: 7px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -0.37px;
-    padding: 25px 35px;
-    margin: 20px;
-    background-color: $color-button;
-    border-radius: 40px;
-    border: none;
-    &:hover{
-      transform: scale(1);
-      background-color: #38b02e;
-    }
+  margin-bottom: 40px;
+  padding: 12px 15px;
+  background-color: $color-button;
+  border-radius: 40px;
+  border: none;
+
+  &:hover {
+    transform: scale(1);
+    background-color: #38b02e;
   }
+}

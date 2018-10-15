@@ -1,8 +1,29 @@
-body{
+
+body {
   font-family: 'Montserrat', sans-serif; //'Roboto Slab', serif; 
   background-color: $color-white;
 }
 
-.container{
-  width: 100%;
+.container {
+  margin: 0 auto;
+  text-align: center;
 }
+
+// .title {
+
+//   padding: 100px 0 20px 0;
+//   color: $color-primary;
+//   font-size: $size-h2;
+//   font-weight: 700;
+//   text-transform: uppercase;
+//   letter-spacing: -2px;
+// }
+
+// .subtitle {
+//   padding-bottom: 85px;
+//   color: $color-secondary;
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 20px;
+//   font-weight: 400;
+//   letter-spacing: -0.5px;
+// }

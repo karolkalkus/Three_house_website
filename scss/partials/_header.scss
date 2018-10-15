@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+
+  &__logo {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logo-img {
+      padding-right: 5px;
+      width: 30px;
+      height: 30px;
+    }
+
+    .logo-title {
+      color: $color-dark-grey;
+      font-family: 'Montserrat';
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -0.45px;
+    }
+  }
+
+  &__nav {
+    .nav {
+      display: none;
+      flex-flow: row;
+      align-items: center;
+      list-style: none;
+
+      &__item {}
+
+      &__link {
+        text-decoration: none;
+        color: $color-secondary;
+        font-size: $size-menu-links;
+        font-weight: 400;
+        line-height: 41px;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.social{
+  margin: 15px 0;
+  &__box{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__copy{
+    font-size: 10px;
+  }
+  &__items{
+    display: flex;
+    flex-flow: row;
+  }
+  &__link{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $color-primary;
+  }
+  &__item{
+    width: 40%;
+  }
+}

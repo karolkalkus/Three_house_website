@@ -1,0 +1,63 @@
+.info {
+  background-color: $color-primary;
+  color: $color-white;
+
+  &__items {
+    padding: 30px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.info-box {
+  width: 190px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+
+  &__title {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.45px;
+  }
+
+  &__item {
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__img {
+    padding-right: 10px;
+  }
+
+  &__description {
+    color: $color-light-grey-1;
+    font-family: "Roboto Slab";
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+
+    &--address {
+      text-align: left;
+      line-height: 14px;
+    }
+  }
+
+  &__cite {
+    font-weight: 700;
+  }
+
+  &__time {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,11 @@
+.values{
+  width: 100%;
+  background-color: $bg-color-grey;
+  &__items{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
